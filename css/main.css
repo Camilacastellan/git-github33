@@ -10,6 +10,35 @@ h1 {
     margin-block-end: 30px;
     }
 
+.quienes{
+    animation-name: movimiento-uno;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+}
+
+@keyframes movimiento-uno{
+    0%{
+        width: 600px;
+        color: greenyellow;
+    }
+
+    25%{
+        width: 450px;
+        color: rgb(39, 215, 15);
+    }
+
+    75%{
+        width: 300px;
+        color: rgb(16, 150, 16);
+    }
+
+    100%{
+        width: 600px;
+        color: rgb(44, 244, 9);
+    }
+}
+
 
 .somos{
     font-style: italic;
@@ -22,6 +51,8 @@ nav a{
 
     transition: all .3s ease-in-out;
 }
+
+
 
 body{
     background-image: url(../img/logo1.jpg.png);
