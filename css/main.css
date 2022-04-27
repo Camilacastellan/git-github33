@@ -27,6 +27,7 @@ body{
     background-image: url(../img/logo1.jpg.png);
     background-repeat: no-repeat;
     margin: 0px;
+    background-position: center;
 }
 
 nav{
