@@ -52,6 +52,12 @@ nav a{
     transition: all .3s ease-in-out;
 }
 
+nav a:hover{
+    color: rgb(165, 12, 188);
+    padding-left: 50px;
+    transform:translate(50px);
+}
+
 
 
 body{
