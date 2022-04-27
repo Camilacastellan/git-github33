@@ -1,0 +1,174 @@
+h1 {
+    color: rgb(13, 164, 113);
+    font-weight: bold;
+    text-align: center;
+    text-decoration:underline;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    }
+
+
+.somos{
+    font-style: italic;
+    font-weight:bolder;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+
+    transition: all .3s ease-in-out;
+}
+
+body{
+    background-image: url(../img/logo1.jpg.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+nav{
+    margin: 30px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.video{
+    text-align: center;
+    width: auto;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    width: 80%;
+    margin: 20px;
+}
+
+div img{
+        display: grid;
+        width: 80%;
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;    
+        width: 100%;
+    }
+
+header a{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.contredes{
+    display: flex;
+    padding: 20px;
+    flex-direction:row;
+}
+
+.redes{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    font-style: oblique;
+}
+
+.ingresa{
+    background-image:linear-gradient(90deg, rgba(5,163,125,1) 0%, rgba(5,157,110,1) 40%, rgba(4,168,139,1) 52%, rgba(0,212,255,1) 100%);
+    font-style: italic;
+    font-size: 20px;
+}
+
+.registra{
+    page-break-inside: auto;
+    font-weight: 40px;
+    padding: 3px;
+    font-style: oblique;
+}
+
+@media screen and (min-width:1024px) {
+
+    h1{
+        margin: 5px;
+        padding: 30px;
+        font-size: 50px;
+    }
+
+    nav a{
+        color: black;
+        cursor: all-scroll;
+        font-size: 30px;
+    }
+
+    .somos{
+        font-style: italic;
+        font-weight:bolder;
+        text-align:center;
+        font-size: 30px;
+        margin: 20px;
+        padding:10px;
+        box-sizing: border-box;
+    }
+
+    .video{
+        width: 100%
+    }
+    }
+
+    .ingresa{
+        font-size: 30px; 
+        text-align:left; 
+    }
+
+    .registra{
+        page-break-inside: auto;
+        font-weight: 0px;
+        padding: 5px;
+        font-style: oblique;
+    }
+
+    .contenedor{
+        display: grid;
+        grid-row-gap: 30px;
+        width: 80%;
+        margin: 90px;
+    }
+
+    div img{
+        display: grid;
+        width: 100%;
+        margin: 50; 
+    }
+
+    header a{
+        margin: 20px;
+        font-size: 40px;
+    }
+
+    .foto a{
+        font-size: 30px;
+    }
+
+    .paginas{
+        font-size: 30px;
+    }
+
+    .contredes{
+        display: flex;
+        padding: 25px;
+        flex-direction:row;
+        font-size: 25px;
+    }
+    
+    .redes{
+        width: 70px;
+        height: 50px;
+        margin: 30px;
+        font-style: oblique;
+        }
+   
